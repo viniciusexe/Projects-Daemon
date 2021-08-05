@@ -1,0 +1,5 @@
+NOME = str(input())
+SALARIO = float(input())
+BONUS = float(input())
+TOTAL = ((15 * BONUS) / 100 + SALARIO)
+print(f"TOTAL = R$ {TOTAL:.2f}")
